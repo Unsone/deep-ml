@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:06:12.159Z",
+  "generated_at": "2026-10-10T07:34:53.533Z",
   "items": {
     "problem:105": {
       "kind": "problem",
@@ -63,6 +63,19 @@
       "last_pushed_at": "2026-10-10T07:06:13.990Z",
       "language": "python",
       "lines": 45
+    },
+    "problem:756": {
+      "kind": "problem",
+      "id": "756",
+      "title": "Wave-Based Expert Parallelism Pipelining",
+      "difficulty": "hard",
+      "category": "Optimization",
+      "url": "https://www.deep-ml.com/problems/756",
+      "path": "problems/0756-wave-based-expert-parallelism-pipelining",
+      "first_solved_at": "2026-10-10T07:34:55.311Z",
+      "last_pushed_at": "2026-10-10T07:34:55.311Z",
+      "language": "python",
+      "lines": 19
     }
   }
 }
