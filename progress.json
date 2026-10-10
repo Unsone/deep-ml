@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:55:04.147Z",
+  "generated_at": "2026-10-10T06:55:04.769Z",
   "items": {
     "problem:105": {
       "kind": "problem",
@@ -26,6 +26,17 @@
       "last_pushed_at": "2026-10-08T03:16:38.671Z",
       "language": "python",
       "lines": 18
+    },
+    "math:217": {
+      "kind": "math",
+      "id": "217",
+      "title": "Backpropagation Through Movement Ops",
+      "difficulty": "medium",
+      "category": "ML Compilers",
+      "url": "https://www.deep-ml.com/math-problems/217",
+      "path": "math/0217-backpropagation-through-movement-ops",
+      "first_solved_at": "2026-10-10T06:55:06.305Z",
+      "last_pushed_at": "2026-10-10T06:55:06.305Z"
     }
   }
 }
