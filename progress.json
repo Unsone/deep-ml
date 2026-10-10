@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:55:04.769Z",
+  "generated_at": "2026-10-10T06:56:58.106Z",
   "items": {
     "problem:105": {
       "kind": "problem",
@@ -37,6 +37,19 @@
       "path": "math/0217-backpropagation-through-movement-ops",
       "first_solved_at": "2026-10-10T06:55:06.305Z",
       "last_pushed_at": "2026-10-10T06:55:06.305Z"
+    },
+    "problem:28": {
+      "kind": "problem",
+      "id": "28",
+      "title": "SVD of a 2x2 Matrix",
+      "difficulty": "hard",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/28",
+      "path": "problems/0028-svd-of-a-2x2-matrix",
+      "first_solved_at": "2026-10-10T06:56:59.966Z",
+      "last_pushed_at": "2026-10-10T06:56:59.966Z",
+      "language": "python",
+      "lines": 17
     }
   }
 }
