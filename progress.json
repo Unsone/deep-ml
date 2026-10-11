@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:33:11.169Z",
+  "generated_at": "2026-10-11T13:26:32.755Z",
   "items": {
     "problem:105": {
       "kind": "problem",
@@ -124,6 +124,19 @@
       "path": "math/0034-least-squares-and-the-normal-equations",
       "first_solved_at": "2026-10-11T07:33:10.166Z",
       "last_pushed_at": "2026-10-11T07:33:10.166Z"
+    },
+    "problem:26": {
+      "kind": "problem",
+      "id": "26",
+      "title": "Implementing Basic Autograd Operations",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/26",
+      "path": "problems/0026-implementing-basic-autograd-operations",
+      "first_solved_at": "2026-10-11T13:26:27.608Z",
+      "last_pushed_at": "2026-10-11T13:26:27.608Z",
+      "language": "python",
+      "lines": 50
     }
   }
 }
