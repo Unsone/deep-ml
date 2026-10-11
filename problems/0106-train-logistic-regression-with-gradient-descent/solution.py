@@ -11,7 +11,7 @@ def train_logreg(X: np.ndarray, y: np.ndarray, learning_rate: float, iterations:
 	losses = []
 
 	for i in range(iterations):
-		Z = np.dot(X_new, W)
+		Z = X_new @ W
 		S = np.divide(1, (1+np.exp(-Z)))
 		loss = -np.sum(y * np.log(S + 1e-15) + (1 - y) * np.log(1 - S + 1e-15))
 		losses.append(loss)
