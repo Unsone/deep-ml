@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T10:05:17.277Z",
+  "generated_at": "2026-10-13T17:30:20.498Z",
   "items": {
     "problem:105": {
       "kind": "problem",
@@ -163,6 +163,19 @@
       "last_pushed_at": "2026-10-13T10:05:15.730Z",
       "language": "python",
       "lines": 65
+    },
+    "problem:1384": {
+      "kind": "problem",
+      "id": "1384",
+      "title": "Reparameterization Trick and the VAE Prior KL",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/1384",
+      "path": "problems/1384-reparameterization-trick-and-the-vae-prior-kl",
+      "first_solved_at": "2026-10-13T17:30:18.434Z",
+      "last_pushed_at": "2026-10-13T17:30:18.434Z",
+      "language": "python",
+      "lines": 14
     }
   }
 }
