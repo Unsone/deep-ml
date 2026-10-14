@@ -40,7 +40,7 @@ def paged_attention(query, key_cache, value_cache, block_table, context_len):
         value_list.append(value_cache[phys_idx, :take])
         remaining -= take
 
-    K = np.concatenate(key_list, axis=0)     # (L, H, D)
+    K = np.concatenate(key_list, axis=0)
     V = np.concatenate(value_list, axis=0)
 
     return self_attention(query, K, V)
