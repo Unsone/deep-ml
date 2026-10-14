@@ -15,7 +15,7 @@ def self_attention(Q: np.ndarray, K: np.ndarray, V: np.ndarray) -> np.ndarray:
     # 数值稳定 softmax
     scores_new = scores - scores.max(axis=-1, keepdims=True)
     exp_scores = np.exp(scores_new)
-    softmax = exp_scores / exp_scores.sum(axis=-1, keepdims=True)   # (H, L)
+    softmax = exp_scores / exp_scores.sum(axis=-1, keepdims=True)
 
     # 加权 V (H, D)
     attention = np.einsum('hl,hld->hd', softmax, V_)
