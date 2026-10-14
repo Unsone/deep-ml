@@ -35,7 +35,6 @@ def multi_head_attention_einsum(X, W_q, W_k, W_v, W_o, num_heads: int, causal: b
 
     B, S, _ = X.shape
     d_out = W_q.shape[1]
-    assert d_out % num_heads == 0, "d_out must be divisible by num_heads"
     d_head = d_out // num_heads
 
     Q, K, V = compute_qkv(X, W_q, W_k, W_v)
