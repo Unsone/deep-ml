@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**19** solved · 16 problems · 0 labs · 3 math
+**20** solved · 17 problems · 0 labs · 3 math
 
 ![Coverage](./coverage.svg)
 
@@ -23,6 +23,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Implement Multi-Head Attention Using Einsum](https://www.deep-ml.com/problems/960) | hard | 2026-10-14 | [solution](problems/0960-implement-multi-head-attention-using-einsum) |
 | [Implementing PagedAttention: Block-wise Attention Computation](https://www.deep-ml.com/problems/492) | hard | 2026-10-14 | [solution](problems/0492-implementing-pagedattention-block-wise-attention-computation) |
 | [Multi-Head Latent Attention (MLA)](https://www.deep-ml.com/problems/405) | hard | 2026-10-13 | [solution](problems/0405-multi-head-latent-attention-mla) |
+| [Positional Encoding Calculator](https://www.deep-ml.com/problems/85) | hard | 2026-10-16 | [solution](problems/0085-positional-encoding-calculator) |
 | [Singular Value Decomposition (SVD) of 2x2 Matrix](https://www.deep-ml.com/problems/12) | hard | 2026-10-08 | [solution](problems/0012-singular-value-decomposition-svd-of-2x2-matrix) |
 | [SVD of a 2x2 Matrix](https://www.deep-ml.com/problems/28) | hard | 2026-10-10 | [solution](problems/0028-svd-of-a-2x2-matrix) |
 | [Train Logistic Regression with Gradient Descent](https://www.deep-ml.com/problems/106) | hard | 2026-10-11 | [solution](problems/0106-train-logistic-regression-with-gradient-descent) |
