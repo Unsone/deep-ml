@@ -12,7 +12,7 @@ def flash_attention_forward(
     seq_len, d_model = Q.shape
     
     # ==========================================
-    # 1. 初始化变量
+    # 1. 初始化变量 (使用直白的命名)
     # ==========================================
     # softmax_numerator (分子): 累加过程中的 未归一化的 P * V
     softmax_numerator = torch.zeros((seq_len, d_model), device=Q.device)
@@ -38,7 +38,7 @@ def flash_attention_forward(
         block_max = scores.max(dim=1, keepdim=True)[0] 
         
         # 更新全局最大值
-        new_global_max = torch.max(global_max, block_max)
+        new_global_max = torch.maximum(global_max, block_max)
         
         # 计算局部指数（减去最新的全局最大值防溢出）
         # block_exp 相当于局部块的 P
