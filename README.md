@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**21** solved · 18 problems · 0 labs · 3 math
+**22** solved · 19 problems · 0 labs · 3 math
 
 ![Coverage](./coverage.svg)
 
@@ -15,6 +15,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Balance Dataset via Undersampling](https://www.deep-ml.com/problems/1057) | easy | 2026-10-14 | [solution](problems/1057-balance-dataset-via-undersampling) |
 | [Matrix-Vector Dot Product](https://www.deep-ml.com/problems/1) | easy | 2026-10-10 | [solution](problems/0001-matrix-vector-dot-product) |
 | [Reparameterization Trick and the VAE Prior KL](https://www.deep-ml.com/problems/1384) | easy | 2026-10-13 | [solution](problems/1384-reparameterization-trick-and-the-vae-prior-kl) |
+| [Adam Optimizer](https://www.deep-ml.com/problems/87) | medium | 2026-10-17 | [solution](problems/0087-adam-optimizer) |
 | [Implementing Basic Autograd Operations](https://www.deep-ml.com/problems/26) | medium | 2026-10-11 | [solution](problems/0026-implementing-basic-autograd-operations) |
 | [Single Neuron with Backpropagation](https://www.deep-ml.com/problems/25) | medium | 2026-10-16 | [solution](problems/0025-single-neuron-with-backpropagation) |
 | [Solve System of Linear Equations Using Cramer's Rule](https://www.deep-ml.com/problems/119) | medium | 2026-10-15 | [solution](problems/0119-solve-system-of-linear-equations-using-cramer-s-rule) |
