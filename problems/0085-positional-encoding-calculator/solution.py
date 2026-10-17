@@ -26,8 +26,7 @@ def pos_encoding(position: int, d_model: int):
     # 4. 计算分母项 div_term
     # 公式中的 10000^(2i/d_model) 取对数后变为 exp(2i * -log(10000) / d_model)
     # 我们只需要计算一半的维度 (d_model/2)，因为偶数索引用 sin，奇数索引用 cos
-    div_term = torch.exp(torch.arange(0, d_model, 2, dtype=torch.float16) * 
-                         (-math.log(10000.0) / d_model))
+    div_term = torch.exp(torch.arange(0, d_model, 2, dtype=torch.float16) * (-math.log(10000.0) / d_model))
 
     # 5. 计算 sin 和 cos
     # 偶数维度 (0, 2, 4...) 使用 sin
