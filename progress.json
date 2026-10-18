@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:17:52.340Z",
+  "generated_at": "2026-10-18T14:06:20.541Z",
   "items": {
     "problem:105": {
       "kind": "problem",
@@ -303,9 +303,9 @@
       "url": "https://www.deep-ml.com/problems/130",
       "path": "problems/0130-implement-a-simple-cnn-training-function-with-backpropagation",
       "first_solved_at": "2026-10-18T13:17:46.491Z",
-      "last_pushed_at": "2026-10-18T13:17:46.491Z",
+      "last_pushed_at": "2026-10-18T14:06:20.149Z",
       "language": "python",
-      "lines": 52
+      "lines": 124
     }
   }
 }
