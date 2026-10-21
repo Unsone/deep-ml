@@ -20,10 +20,13 @@ def cross_attention(decoder_x, encoder_out, W_q, W_k, W_v, src_pad_mask=None):
     d_k = np.sqrt(Q.shape[1])
 
     scores = Q @ K.T / d_k
+    tgt_len, src_len = scores.shape
 
     if src_pad_mask is not None:
-        mask = np.asarray(src_pad_mask, dtype=bool)
-        scores = np.where(mask[None, :], -np.inf, scores)
+        for i in range(tgt_len):
+            for j in range(src_len):
+                if src_pad_mask[j]:
+                    scores[i, j] = -np.inf
 
     scores_max = scores.max(axis=-1, keepdims=True)
     scores_new = scores - scores_max
