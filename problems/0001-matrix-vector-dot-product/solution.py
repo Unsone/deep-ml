@@ -12,7 +12,6 @@ __global__ void matrix_vector_dot_kernel(
     // 获取当前线程的全局 ID
     int row = blockIdx.x * blockDim.x + threadIdx.x;
 
-    // ✅ 加上越界检测：防止多出来的线程越界读写显存
     if (row < rows) {
         float sum = 0.0f;
         for (int col = 0; col < cols; ++col) {
@@ -23,7 +22,6 @@ __global__ void matrix_vector_dot_kernel(
 }
 
 std::vector<float> matrix_dot_vector(const std::vector<std::vector<float>>& matrix, const std::vector<float>& vec) {
-    // 为了安全，这里可以把维度检测也加回来（题目要求不匹配返回 -1）
     if (matrix.empty() || matrix[0].empty() || matrix[0].size() != vec.size()) {
         return {-1};
     }
