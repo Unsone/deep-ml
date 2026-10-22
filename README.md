@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**27** solved · 24 problems · 0 labs · 3 math
+**28** solved · 24 problems · 0 labs · 4 math
 
 ![Coverage](./coverage.svg)
 
@@ -44,6 +44,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [ML Workflow Basics](https://www.deep-ml.com/math-problems/30) | easy | 2026-10-11 | [solution](math/0030-ml-workflow-basics) |
 | [Backpropagation Through Movement Ops](https://www.deep-ml.com/math-problems/217) | medium | 2026-10-10 | [solution](math/0217-backpropagation-through-movement-ops) |
 | [Least Squares and the Normal Equations](https://www.deep-ml.com/math-problems/34) | medium | 2026-10-11 | [solution](math/0034-least-squares-and-the-normal-equations) |
+| [Matrix Multiplication](https://www.deep-ml.com/math-problems/10) | medium | 2026-10-22 | [solution](math/0010-matrix-multiplication) |
 
 ---
 
