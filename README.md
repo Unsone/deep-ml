@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**34** solved · 28 problems · 0 labs · 6 math
+**35** solved · 28 problems · 1 labs · 6 math
 
 ![Coverage](./coverage.svg)
 
@@ -40,6 +40,12 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Train Logistic Regression with Gradient Descent](https://www.deep-ml.com/problems/106) | hard | 2026-10-11 | [solution](problems/0106-train-logistic-regression-with-gradient-descent) |
 | [Train Softmax Regression with Gradient Descent](https://www.deep-ml.com/problems/105) | hard | 2026-10-07 | [solution](problems/0105-train-softmax-regression-with-gradient-descent) |
 | [Wave-Based Expert Parallelism Pipelining](https://www.deep-ml.com/problems/756) | hard | 2026-10-10 | [solution](problems/0756-wave-based-expert-parallelism-pipelining) |
+
+## Labs
+
+| | Difficulty | Solved | |
+| --- | --- | --- | --- |
+| [MNIST: Build Neural Network from Scratch (NumPy Only)](https://www.deep-ml.com/labs/6) | hard | 2026-10-23 | [solution](labs/0006-mnist-build-neural-network-from-scratch-numpy-only) |
 
 ## Math
 
