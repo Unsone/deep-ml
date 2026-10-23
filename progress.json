@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:38:27.984Z",
+  "generated_at": "2026-10-23T09:39:42.642Z",
   "items": {
     "problem:105": {
       "kind": "problem",
@@ -378,6 +378,19 @@
       "path": "math/0004-backpropagation-and-the-chain-rule",
       "first_solved_at": "2026-10-23T09:38:28.361Z",
       "last_pushed_at": "2026-10-23T09:38:28.361Z"
+    },
+    "problem:24": {
+      "kind": "problem",
+      "id": "24",
+      "title": "Single Neuron",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/24",
+      "path": "problems/0024-single-neuron",
+      "first_solved_at": "2026-10-23T09:39:42.811Z",
+      "last_pushed_at": "2026-10-23T09:39:42.811Z",
+      "language": "python",
+      "lines": 28
     }
   }
 }

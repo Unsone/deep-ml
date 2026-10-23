@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**30** solved · 24 problems · 0 labs · 6 math
+**31** solved · 25 problems · 0 labs · 6 math
 
 ![Coverage](./coverage.svg)
 
@@ -15,6 +15,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Balance Dataset via Undersampling](https://www.deep-ml.com/problems/1057) | easy | 2026-10-14 | [solution](problems/1057-balance-dataset-via-undersampling) |
 | [Matrix-Vector Dot Product](https://www.deep-ml.com/problems/1) | easy | 2026-10-10 | [solution](problems/0001-matrix-vector-dot-product) |
 | [Reparameterization Trick and the VAE Prior KL](https://www.deep-ml.com/problems/1384) | easy | 2026-10-13 | [solution](problems/1384-reparameterization-trick-and-the-vae-prior-kl) |
+| [Single Neuron](https://www.deep-ml.com/problems/24) | easy | 2026-10-23 | [solution](problems/0024-single-neuron) |
 | [Adam Optimizer](https://www.deep-ml.com/problems/87) | medium | 2026-10-17 | [solution](problems/0087-adam-optimizer) |
 | [Encoder-Decoder Cross-Attention](https://www.deep-ml.com/problems/1531) | medium | 2026-10-21 | [solution](problems/1531-encoder-decoder-cross-attention) |
 | [Implementing Basic Autograd Operations](https://www.deep-ml.com/problems/26) | medium | 2026-10-11 | [solution](problems/0026-implementing-basic-autograd-operations) |
