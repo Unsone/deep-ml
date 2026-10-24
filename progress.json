@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T09:17:57.085Z",
+  "generated_at": "2026-10-24T09:40:59.199Z",
   "items": {
     "problem:105": {
       "kind": "problem",
@@ -454,6 +454,19 @@
       "path": "math/0131-variance-preservation-and-he-glorot-scaling",
       "first_solved_at": "2026-10-24T09:17:56.838Z",
       "last_pushed_at": "2026-10-24T09:17:56.838Z"
+    },
+    "problem:289": {
+      "kind": "problem",
+      "id": "289",
+      "title": "Implement Xavier/Glorot Weight Initialization",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/289",
+      "path": "problems/0289-implement-xavier-glorot-weight-initialization",
+      "first_solved_at": "2026-10-24T09:40:58.685Z",
+      "last_pushed_at": "2026-10-24T09:40:58.685Z",
+      "language": "python",
+      "lines": 30
     }
   }
 }
