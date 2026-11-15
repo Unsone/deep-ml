@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**37** solved · 29 problems · 1 labs · 7 math
+**38** solved · 30 problems · 1 labs · 7 math
 
 ![Coverage](./coverage.svg)
 
@@ -25,6 +25,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Implementing Basic Autograd Operations](https://www.deep-ml.com/problems/26) | medium | 2026-10-11 | [solution](problems/0026-implementing-basic-autograd-operations) |
 | [Single Neuron with Backpropagation](https://www.deep-ml.com/problems/25) | medium | 2026-10-16 | [solution](problems/0025-single-neuron-with-backpropagation) |
 | [Solve System of Linear Equations Using Cramer's Rule](https://www.deep-ml.com/problems/119) | medium | 2026-10-15 | [solution](problems/0119-solve-system-of-linear-equations-using-cramer-s-rule) |
+| [Two-Layer MLP Forward Pass](https://www.deep-ml.com/problems/1225) | medium | 2026-11-15 | [solution](problems/1225-two-layer-mlp-forward-pass) |
 | [Build a Transformer Encoder Layer](https://www.deep-ml.com/problems/491) | hard | 2026-10-19 | [solution](problems/0491-build-a-transformer-encoder-layer) |
 | [Flash Attention v1 - Forward Pass](https://www.deep-ml.com/problems/208) | hard | 2026-10-17 | [solution](problems/0208-flash-attention-v1-forward-pass) |
 | [Implement a Simple CNN Training Function with Backpropagation](https://www.deep-ml.com/problems/130) | hard | 2026-10-18 | [solution](problems/0130-implement-a-simple-cnn-training-function-with-backpropagation) |
